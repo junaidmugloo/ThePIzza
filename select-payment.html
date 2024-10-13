@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+
+<!-- Mirrored from up2client.com/template/la-pizzeria/main-file/select-payment.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 13 Oct 2024 14:19:42 GMT -->
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>La Pizzeria</title>
+	<link href="assets/images/Logo/la-pizzeria.ico" rel="icon">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/media-query.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;900&amp;display=swap" rel="stylesheet">
+</head>
+<body class="food-wrap">
+	<div class="page_main_wrap">
+		<!--Preloader Start Here -->
+		<div class="preloader">
+			<div class="pizza">
+				<div class="slice"></div>
+				<div class="slice"></div>
+				<div class="slice"></div>
+				<div class="slice"></div>
+				<div class="slice"></div>
+				<div class="slice"></div>
+				<div class="slice"></div>
+				<div class="slice"></div>
+				<div class="slice"></div>
+				<div class="slice"></div>
+				<div class="slice"></div>
+				<div class="slice"></div>
+				<div class="slice"></div>
+			</div>
+		</div>
+		<!--Preloader End Here -->
+		<!--Top Navbar Start Here -->
+		<div class="header">
+			<div class="container">
+				<div class="row">
+					<div class="la-main-header shadow-header p-0">
+						<div class="col-1 back-icon">
+							<a href="main-cart.html" class="previous-page-link">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="mask0_2_8190" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+									<rect width="24" height="24" fill="white"/></mask><g mask="url(#mask0_2_8190)"><path d="M10.07 6L4 12.07L10.07 18.14" stroke="#000215" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M20.9999 12.0701H4.16992" stroke="#000215" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/></g>
+								</svg>
+							</a>
+						</div>
+						<div class="col-8 loac-head-title empty-head-title">Select Payment Method</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Top Navbar End Here -->
+
+		<!--Select Payement Method -->
+		<section class="la-select-paymenttype" id="la-payment-type">
+			<div class="container">
+				<div class="row payemnt-overlay">
+					<div class="col-12">
+						<div class="payment-wrap">
+							<h1 class="cart-list-title mb-0">Select Payment Mode</h1>
+							<div class="select-payment-types">
+								<div class="accordion style-2" id="accordionExample">
+									<div class="check-payment-radio-wrap">
+										<div class="payemntRadio">
+											<input type="radio" class="payRadio__input" id="radio-1" name="paymentRadio">
+											<label for="radio-1" class="payRadio__label"></label>
+										</div>
+										<div class="accordion-item cash-delivery-item">
+											<h2 class="accordion-header" id="headingOne">
+												<button class="accordion-button" type="button">
+													<span class="la-payment-type-name"> Cash on Delivery </span>
+												</button>
+											</h2>
+										</div>
+									</div>
+									<div class="check-payment-radio-wrap">
+										<div class="payemntRadio">
+											<input type="radio" class="payRadio__input" id="radio-2" name="paymentRadio">
+											<label for="radio-2" class="payRadio__label"></label>
+										</div>
+										<div class="accordion-item">
+											<h2 class="accordion-header" id="headingTwo">
+												<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+													<span class="la-payment-type-name"> Credit/Debit Card </span>
+												</button>
+											</h2>
+											<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style="">
+												<div class="accordion-body">
+													<small class="la-save-card">Saved Cards</small>
+													<!-- Card Select -->
+													<div class="d-flex align-items-center select-card-wrap">
+														<button type="button" class="la-add-modal-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Add Card +</button>
+														<div class="modal fade" id="exampleModalCenter" aria-hidden="true" style="display: none;">
+															<div class="modal-dialog modal-dialog-centered" role="document">
+																<div class="modal-content">
+																	<div class="modal-header border-0 pb-0">
+																		<h3 class="modal-title add-card-title">add card</h3>
+																		<button class="btn-close" data-bs-dismiss="modal">
+																			<i class="fa-solid fa-xmark"></i>
+																		</button>
+																	</div>
+																	<div class="modal-body la-add-card-body">
+																		<div class="form">
+																			<div class="form-item">
+																				<label class="form-label modal-label-name" for="username">Card holder Name</label>
+																				<input type="text" class="form-control la-input-group" id="username" autocomplete="off" required="">
+																			</div>
+																			<div class="form-item">
+																				<label class="form-label modal-label-name" for="Number">Card Number</label>
+																				<input type="number" class="form-control la-input-group" id="Number" autocomplete="off" placeholder="******" required="">
+																			</div>
+																			<div class="d-flex align-items-center">		
+																				<div class="form-item me-2">
+																					<label class="form-label modal-label-name" for="Number">Expiry Date</label>
+																					<input type="text" class="form-control la-input-group" id="Numbertwo" autocomplete="off" placeholder="MM / YY" required="">
+																				</div>
+																				<div class="form-item">
+																					<label class="form-label modal-label-name" for="Number">Security Code</label>
+																					<input type="password" class="form-control la-input-group" id="Numberthree" autocomplete="off" placeholder="CVC" required="">
+																				</div>
+																			</div>	
+																		</div>
+																		<a href="javascript:void(0);" class="btn la-card-add-btn btn-primary d-block" data-bs-dismiss="modal">Added</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<!-- Card Select -->
+														<div class="la-payment-card-img" role="group" aria-label="radio toggle button">
+															<div class="clearfix">
+																<input type="radio" class="btn-check" name="btnradio" id="btnradio1" checked="">
+																<label class="btn ms-2 mb-0 tag-btn" for="btnradio1">
+																	<img src="assets/images/payment/visa.svg" alt="">
+																</label>
+															</div>
+
+															<div class="clearfix">
+																<input type="radio" class="btn-check" name="btnradio" id="btnradio2">
+																<label class="btn mb-0 tag-btn" for="btnradio2">
+																	<img src="assets/images/payment/mastercard.svg" alt="">
+																</label>
+															</div>
+														</div>
+													</div>
+													<div class="payment-card position-relative">
+														<div class="card-media">
+															<img src="assets/images/payment/card.png" alt="">
+														</div>
+														<div class="card-info">
+															<div class="clearfix">
+																<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40"><path fill="none" d="M0 0h24v24H0z"/><path d="M22.222 15.768l-.225-1.125h-2.514l-.4 1.117-2.015.004a4199.19 4199.19 0 0 1 2.884-6.918c.164-.391.455-.59.884-.588.328.003.863.003 1.606.001L24 15.765l-1.778.003zm-2.173-2.666h1.62l-.605-2.82-1.015 2.82zM7.06 8.257l2.026.002-3.132 7.51-2.051-.002a950.849 950.849 0 0 1-1.528-5.956c-.1-.396-.298-.673-.679-.804C1.357 8.89.792 8.71 0 8.465V8.26h3.237c.56 0 .887.271.992.827.106.557.372 1.975.8 4.254L7.06 8.257zm4.81.002l-1.602 7.508-1.928-.002L9.94 8.257l1.93.002zm3.91-.139c.577 0 1.304.18 1.722.345l-.338 1.557c-.378-.152-1-.357-1.523-.35-.76.013-1.23.332-1.23.638 0 .498.816.749 1.656 1.293.959.62 1.085 1.177 1.073 1.782-.013 1.256-1.073 2.495-3.309 2.495-1.02-.015-1.388-.101-2.22-.396l.352-1.625c.847.355 1.206.468 1.93.468.663 0 1.232-.268 1.237-.735.004-.332-.2-.497-.944-.907-.744-.411-1.788-.98-1.774-2.122.017-1.462 1.402-2.443 3.369-2.443z" fill="#fff"/></svg>
+																<h4 class="card-name">Credit Card</h4>
+																<p class="card-number">4342 **** **** ****</p>
+															</div>
+															<div class="bottom-info">
+																<p>04 / 25</p>
+																<p class="la-holder-name">jon doe</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="check-payment-radio-wrap">
+										<div class="payemntRadio">
+											<input type="radio" class="payRadio__input" id="radio-3" name="paymentRadio">
+											<label for="radio-3" class="payRadio__label"></label>
+										</div>
+										<div class="accordion-item">
+											<h2 class="accordion-header" id="headingThree">
+												<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+													<span class="la-payment-type-name">Google Pay/Other</span>
+												</button>
+											</h2>
+											<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample" style="">
+												<div class="accordion-body pt-0">
+													<div class="form gpay-form">
+														<div class="form-item g-pay-form">
+															<label class="form-label la-link-via" for="username">Link via UPI</label>
+															<input type="number" class="form-control la-holder" id="usernametwo" placeholder="Enter your UPI ID" autocomplete="off" required="">
+														</div>
+														<div class="la-comment-form-cookies-consent save-email-label m-0">
+															<div class="form-group paypal-group">
+																<input type="checkbox" id="la-google-element" class="la-pay-checkbox" name="la-comment-element" value="yes" >
+																<label for="la-comment-element" class="agree-terms position-relative">Save your information.</label>
+															</div>
+														</div>
+														<a href="javascript:void(0);" class="btn btn-primary la-card-add-btn la-con-btn btn-block">Continue</a>	
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="check-payment-radio-wrap">
+										<div class="payemntRadio">
+											<input type="radio" class="payRadio__input" id="radio-4" name="paymentRadio">
+											<label for="radio-4" class="payRadio__label"></label>
+										</div>
+										<div class="accordion-item">
+											<h2 class="accordion-header" id="headingFour">
+												<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+													<span class="la-payment-type-name">Paypal</span>
+												</button>
+											</h2>
+											<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+												<div class="accordion-body pt-0">
+													<div class="form">
+														<div class="form-item g-pay-form">
+															<input type="email" name="email" class="form-control la-holder" id="usernamethree" placeholder="Enter Registered Email" autocomplete="off" required="">
+														</div>
+														<div class="la-comment-form-cookies-consent save-email-label m-0">
+															<div class="form-group paypal-group">
+																<input type="checkbox" id="la-paypal-element" class="la-pay-checkbox" name="la-comment-element" value="yes" >
+																<label for="la-comment-element" class="agree-terms position-relative">Save your information.</label>
+															</div>
+														</div>
+														<a href="javascript:void(0);" class="btn btn-primary la-card-add-btn la-con-btn btn-block">Continue</a>	
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="check-payment-radio-wrap">
+										<div class="payemntRadio">
+											<input type="radio" class="payRadio__input" id="radio-5" name="paymentRadio">
+											<label for="radio-5" class="payRadio__label"></label>
+										</div>
+										<div class="accordion-item">
+											<h2 class="accordion-header" id="headingFive">
+												<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+													<span class="la-payment-type-name">Apple Pay</span>
+												</button>
+											</h2>
+											<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+												<div class="accordion-body pt-0">
+													<div class="form">
+														<div class="form-item g-pay-form">
+															<input type="text" name="text" class="form-control la-holder" id="usernamefour" placeholder="Enter Apple ID" autocomplete="off" required="">
+														</div>
+														<div class="la-comment-form-cookies-consent save-email-label m-0">
+															<div class="form-group paypal-group">
+																<input type="checkbox" id="la-apple-element" class="la-pay-checkbox" name="la-comment-element" value="yes" >
+																<label for="la-comment-element" class="agree-terms position-relative">Save your information.</label>
+															</div>
+														</div>
+														<a href="javascript:void(0);" class="btn btn-primary la-card-add-btn la-con-btn btn-block">Continue</a>	
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="check-payment-radio-wrap">
+										<div class="payemntRadio">
+											<input type="radio" class="payRadio__input" id="radio-6" name="paymentRadio">
+											<label for="radio-6" class="payRadio__label"></label>
+										</div>
+										<div class="accordian-item item-six">
+											<h2 class="accordion-header" id="headingSix">
+												<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+													<span class="la-payment-type-name">Amazon Pay</span>
+												</button>
+											</h2>
+											<div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample" style="">
+												<div class="accordion-body pt-0">
+													<div class="form gpay-form">
+														<div class="form-item g-pay-form ">
+															<input type="number" class="form-control la-holder la-ama-phone" id="usernamefive" placeholder="Enter Registered Number" autocomplete="off" required="">
+
+															<input type="number" class="form-control la-holder" id="usernamesix" placeholder="Enter Amazon Pay UPI" autocomplete="off" required="">
+														</div>
+														<div class="la-comment-form-cookies-consent save-email-label m-0">
+															<div class="form-group paypal-group">
+																<input type="checkbox" id="la-comment-element" class="la-pay-checkbox" name="la-comment-element" value="yes" >
+																<label for="la-comment-element" class="agree-terms position-relative">Save your information.</label>
+															</div>
+														</div>
+														<a href="javascript:void(0);" class="btn btn-primary la-card-add-btn la-con-btn btn-block">Continue</a>	
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="payment-verify">
+										<div class="pay-total-amount">
+											<div class="la-fix-pay">
+												<div class="total-wrap">
+													<div class="pa-total-rup">$41.25</div>
+													<a class="pa-total-tit" href="main-cart.html">View details</a>
+												</div>
+												<div class="next-button make-pay">
+													<div class="login-otp-btn submit-btn pay-sele-box text-center">
+														<a href="secure-checkout.html" class="otp-btn">Make Payment</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>	
+	</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/custom.js"></script>
+</body>
+
+<!-- Mirrored from up2client.com/template/la-pizzeria/main-file/select-payment.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 13 Oct 2024 14:19:45 GMT -->
+</html>

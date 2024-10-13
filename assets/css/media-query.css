@@ -1,0 +1,496 @@
+@media (min-width: 576px){
+	body, .sticky, .total-detail-wrap, .bill-total-bar, .desk-width, .header .home-header, .payment-verify,
+	.secure-checkout, .calendar, .ordering-for.future-order, .header .order-header, .header .la-main-header {
+		max-width: 600px;
+		margin: 0 auto !important;
+	}
+	.la-track-food, .change-delivery {
+		margin: 0 auto;
+		max-width: 600px;
+	}
+	#la_homepage, #la_menupage, #la_offerpage, #la_notification, #la_pizza_order_hist {
+		position: relative;
+    	z-index: 999999;
+	}
+	.setting-sidebar.show .la-main-header.setting-header {
+		max-width: 600px;
+		margin: 0!important;
+	}
+	.order-help-wrap {
+    	padding: 24px 0 0px;
+	}
+	.single-seeting-page {
+		padding-top: 70px;
+	}
+	.foot-content {
+    	padding: 106px 20px 0;
+	}
+	.setting-sidebar {
+		height: 100vh;
+		width: 100%;
+		position: fixed;
+		left: -625px;
+		top: 0;
+		bottom: 0;
+		-webkit-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+		transition: all 0.5s;
+		flex-direction: column;
+		overflow-y: scroll;
+		background: #fff;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	.pizza .slice {
+		border-width: 8vmin 1.75vmin 0 2.75vmin;
+		transform-origin: 64% 99%;
+	}
+	body .pizza .slice:before {
+		height: 1.5vmin;
+    	width: 5vmin;
+    	top: -8.5vmin;
+    	left: -3vmin
+	}
+	body .pizza .slice:after {
+		left: -1vmin;
+		top: -6vmin;
+		width: 1.15vmin;
+    	height: 1.15vmin;
+	}
+	.la-slide-content {
+		padding: 20px 16px 30px;
+	}
+	.intro-slider .slick-dots {
+		bottom:25px;
+	}
+	.social-sharing {
+		justify-content: center;
+	}
+	.menu-wrap {
+ 		border-radius: 100% 100% 27% 27% / 77% 68% 25% 25%;
+ 	}
+ 	.explo-menu-img img {
+ 		padding: 6px;
+ 		border-radius: 100%;
+ 	}
+ 	.home-start-pizza {
+ 		height: 155px;
+ 	}
+ 	.outlet-rating-view {
+ 		margin-left: 39%;
+ 	}
+ 	.sc-bottom-bar {
+ 		position: relative;
+ 	}
+ 	.bottom-panel ul  {
+ 		min-width: 600px;
+ 	}
+ 	.navigation-icons:after {
+ 		bottom: -7px;
+ 		left: 71px;
+ 	}
+ 	.navigation-icons.active:after  {
+ 		transform: translateY(2px) translateX(1px);
+ 	}
+ 	.bottom-panel {
+  		background-image: radial-gradient(circle at 50% -2px,transparent 36px, #ffffff 37px);
+ 	}
+ 	.nav-menu-icon.nav-account-icon {
+ 		left: 24px;
+ 	}
+ 	.loac-head-title.des-heading-title {
+ 		padding-left: 16px;
+ 	}
+ 	.loac-head-title {
+ 		padding-left: 14px;
+ 	}
+ 	.loac-head-title.empty-head-title {
+ 		padding-left: 4px;
+ 	}
+ 	.top-nav-search {
+ 		left: 20px;
+ 	}
+ 	.rate-us-gif img {
+ 		height: 425px;
+ 		width: auto;
+ 	}
+ 	.further-inquiry {
+		margin-bottom: 43px;
+ 	}
+ 	.setting-footer-content {
+ 		padding-bottom: 40px;
+ 	}
+}
+@media (min-width: 576px) {
+	.container {
+		max-width: 745px;
+	}
+	.best-food-slider {
+		overflow: hidden;
+	}
+}
+@media (max-width: 767px) {
+	.best-food-slider .slick-list{
+		margin-left: -102px;
+	}
+	.outlet-rating-view {
+    	margin-left: 43px;
+	}
+	/****Phone Login Media Query ****/
+
+	.la-login-btn {
+ 		margin: 0 6px;
+ 	}
+	.order-date .picker.arrows {
+		padding-right: 82px;
+	}
+	.gift-apply .login-otp-btn.submit-btn {
+    	margin-bottom: 80px;
+	}
+	/****Track Order Media Query ****/
+	.sc-nav-indicator {
+		left: 9px;
+	}
+	.log-conf-btn .reorder-btn, .log-conf-btn .login-otp-btn {
+		padding: 14px 24px;
+		margin: 0 8px;
+	}
+}
+@media (max-width: 575px) {
+	.top-nav-search {
+    	position: relative;
+    	left: 9px;
+	}
+	.loac-head-title.empty-head-title {
+		padding-left: 10px;
+	}
+	.outlet-rating-view {
+    	margin-left: 55px;
+	}
+	.sc-nav-indicator {
+    	left: 2px;
+	}
+	.navigation-icons:after {
+		left: 59px;
+    	right: 59px;
+	}
+}
+@media (max-width: 425px) {
+	.loac-head-title.empty-head-title {
+    	padding-left: 16px;
+	}
+	.navigation-icons:after {
+		left: 49px;
+    	right: 59px;
+	}
+}
+@media (max-width: 375px) {
+	.sc-bottom-bar {
+    	background-image: radial-gradient(circle at 187px 2px,transparent 36px, #ffffff 37px)!important;
+	}
+	.intro-slider .slick-dots {
+		bottom: 25px;
+	}
+	.payment-verify.verify-numver-content {
+		bottom: -86px;
+	}
+	.order-date .picker.arrows {
+		padding-right: 79px!important;
+	}
+	.rate-content {
+		padding: 20px 0;
+	}
+	.best-food-slider .slick-list {
+    	margin-left: -68px!important;
+	}
+	.offer-bar-slider .slick-list {
+    	margin-left: -25px!important;
+	}
+	.la-login-btn {
+		margin: 0 0px;
+		padding: 12px;
+	}
+	.location-title {
+		padding: 20px 22px;
+	}
+	.trend-item.last-trend-item {
+    	margin-bottom: 20px;
+	}
+	.pay-succ-content .login-otp-btn {
+		margin: 0 0 8px 0;
+	}
+	.slide-title {
+		font-size: 30px;
+	}
+	.review-text {
+		padding-left: 1px;
+	}
+
+	/***Order History ***/
+	.garden-delight-history .order-hist-btn{
+		margin-left: 0px;
+	}
+}
+@media (max-width: 390px) {
+	.la-slide-content {
+		padding: 30px 14px;
+	}
+	.use-numer-otp {
+		padding: 16px 50px;
+	}
+	.explore-arrow.explore-arrow-text {
+		bottom: 14px;
+	}
+	/****Register Form Media Query ****/
+	.la-register-content .input-mini {
+    	padding: 9px 0;
+	}
+	.help-content {
+		padding-bottom: 20px;
+	}
+	/****Homepage Media Query ****/
+	.sc-bottom-bar {
+		background-image: radial-gradient(circle at 194px 2px,transparent 36px, #ffffff 37px);
+	}
+	a.event-icon {
+    	right: 20px;
+	}
+	.notification-icon.navigation-icons {
+    	left: 17px;
+	}
+	.food-shop {
+		padding : 16px;
+	}
+	.outlet-rating-view {
+    	margin-left: 35px;
+	}
+	.change-delivery.verify-numver-content {
+    	bottom: -105px;
+	}
+	.order-date .picker.arrows {
+    	padding-right: 78px;
+	}
+	.navigation-icons:after {
+		left: 44px;
+	}
+	.best-food-slider .slick-list{
+		margin-left: -55px;
+	}
+	.offer-bar-slider .slick-list {
+		margin-left: -40px;
+	}
+	/****Track Order Media Query ****/
+	.person-detail {
+		font-size: 15px;
+	}
+	.reorder-form-btn .login-otp-btn, .reorder-btn {
+		padding: 12px 16px;	
+	}
+	.reorder-form-btn .reorder-btn, .reorder-form-btn .login-otp-btn {
+		margin: 0px 4px;
+	}
+	.pay-total-amount.pay-securely {
+    	padding: 20px 0px 0px;
+	}
+	
+}
+@media (max-width: 396px) {
+	.outlet-rating-view {
+		margin-left: 20px;
+	}
+	.navigation-icons:after {
+    	left: 44px;
+	}
+	.best-food-slider .slick-list {
+    	margin-left: -82px;
+	}
+	.offer-bar-slider .slick-list {
+		margin-left: -42px;
+	}
+	.order-date .picker.arrows {
+    	padding-right: 79px!important;
+	}
+	.order-on-way {
+    	width: 82px;
+    	margin-left: 1px;
+	}
+	.la-slide-img img {
+  		width: 100%;
+ 	 	height: 425px;
+	}
+	.foot-content {
+    	padding: 45px 20px 56px;
+	}
+	.wlcm-title {
+    	padding: 18px 0px 16px;
+	}
+	.gift-apply .login-otp-btn.submit-btn {
+    	margin-bottom: 35px;
+	}
+	
+}
+@media (max-width: 320px) {
+	/****Splash screen media query ****/
+	.la-title {
+		font-size: 40px;
+		line-height: 54px;
+	}
+	.location-title {
+		padding: 20px 20px;
+	}
+	.la-slide-content {
+		padding: 50px 16px;
+	}
+	.slide-title {
+		font-size: 28px;
+	}
+	/****Phone Login Media Query ****/
+	.la-login-btn {
+		padding: 12px 12px;
+		margin: 0px;
+	}
+	.use-numer-otp {
+		margin: 4px 0 9px;
+	}
+	/****Register Form Media Query ****/
+	.la-comment-form-cookies-consent {
+		display: flex;
+	}
+	.agree-terms {
+		    font-size: 14px;
+    line-height: 20px;
+    padding-left: 10px;
+	}
+	.login-otp-btn {
+		padding: 16px 28px;
+	}
+	/****Explore City Media Query ****/
+	.review-text {
+		font-size: 13px;
+	}
+	.food-shop {
+		padding: 16px 14px;
+	}
+	/****Explore Veg Pizza Media Query ****/
+	details .open {
+		padding-left: 0px;
+		top: 0px;
+		left: auto;
+		right: auto;
+	}
+	.veg-pizza-detail {
+		padding: 24px 0 40px;
+	}
+
+	/****Homepage Media Query ****/
+	.explo-menu-img img {
+		width: 100%;
+		height: auto;
+	}
+	.explo-menu-name {
+		padding: 10px 4px 12px;
+    	word-break: break-all;
+ 	}
+ 	.explo-menu-name {
+ 		font-size: 11px;
+    	line-height: 14px;
+ 	}
+ 	.outlet-rating-view {
+    	margin-left: 0px;
+	}
+	.sc-bottom-bar {
+    	background-image: radial-gradient(circle at 160px 2px,transparent 36px, #ffffff 37px)!important;
+	}
+	a.event-icon {
+    	right: 13px;
+	}
+	a.notification-icon {
+		left: 10px;
+		position: relative;
+	}
+	.call-icon:after {
+		right: 27px;
+	}
+	.offer-bar-slider.menu-screen {
+		padding:  0 0 50px;
+	}
+	.pizza-offer-warp {
+		width: 300px;
+	}
+	.offer-bar-slider.slick-initialized .slick-slide {
+		margin: 0 4px;
+	}
+	.pizza-offer-warp.green-slide .offer-deatil:after {
+		z-index: -1;
+		right: -77%;
+		top: -21px;
+	}
+	.pizza-offer-warp.yellow-slide .offer-deatil:after {
+		top: -1px;
+    	right: -55%;
+	}
+	.offer-deatil {
+		position: relative;
+		z-index: 28;
+	}
+	.navigation-icons:after {
+    	left: 37px;
+	}
+	.best-food-slider .slick-list {
+		margin-left: -18px!important;
+	}
+	.best-food-slider.slick-initialized .slick-slide {
+		margin: 0 8px;
+	}
+	.offer-bar-slider .slick-list {
+    	margin-left: -1px;
+	}
+	/****Empty Cart Media Query ****/
+	.empty-cart-content {
+		padding: 0 10px;
+	}
+	/****Track Order Media Query ****/
+	.la-google-map:before {
+		top: 9%;
+	}
+	.swiper-container {
+		width: 60px;
+    	height: 79px;
+	}
+	.order-date .picker.arrows {
+    	padding-left: 63px;
+	}
+	.ordering-for.future-order.verify-numver-content {
+    	bottom: -113px;
+	}
+	.single-pizza-size .gender-option {
+		flex-wrap: wrap;
+	}
+	.radio-label.large-label {
+		margin-left: 12px;
+	}
+	.black-overlay {
+		padding: 18px 12px;
+	}
+	.qty.text {
+		width: 13px;
+	}
+	.track-order-btn {
+		padding:4px 3px 8px;
+	}
+	.track-btn {
+		font-size: 12px;
+	}
+	.order-received-content {
+		padding: 10px 5px 54px 42px;	
+	}
+	.loac-head-title.empty-head-title {
+    	padding-left: 22px;
+	}
+	.top-nav-search {
+		left: 1px;
+	}
+	.loac-head-title {
+		font-size: 18px;
+	}
+}
